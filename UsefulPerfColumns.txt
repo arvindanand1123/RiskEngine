@@ -17,8 +17,8 @@ DELETE  --  10 msa
     04 origIntRate
     05 orgUPB
     06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
+    *DELETE -- 07 orginationDate*
+    *DELETE -- 08 firstPaymentDate*
     09 orgLTV
     10 orgCombinedLTV
     11 numBorrowers
@@ -29,12 +29,12 @@ DELETE  --  10 msa
     16 propType
     17 numUnits
     18 occType
-    19 propertyState
+    *DELETE -- 19 propertyState*
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent*
     22 prodType
     23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
+    *DELETE -- 24 mortInsType*
     25 reloMortIndicator
 
 DELETE  --  12 modFlag
