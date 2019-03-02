@@ -13,7 +13,7 @@ def index():
 def getPrediction():
     if request.method == 'POST':
         f = request.form
-        return str(f)
+        return json.dumps(f)
     else:
         return "POST Failed"
 
