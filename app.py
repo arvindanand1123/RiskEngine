@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 import os
+import json
 
 app = Flask(__name__)
 
@@ -12,7 +13,7 @@ def index():
 def getPrediction():
     if request.method == 'POST':
         f = request.form
-        return f
+        return str(f)
     else:
         return "POST Failed"
 
