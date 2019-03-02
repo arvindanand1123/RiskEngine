@@ -46,8 +46,8 @@ DELETE  --  12 modFlag
     04 origIntRate
     05 orgUPB
     06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
+    *DELETE -- 07 orginationDate*
+    *DELETE -- 08 firstPaymentDate*
     09 orgLTV
     10 orgCombinedLTV
     11 numBorrowers
@@ -58,12 +58,12 @@ DELETE  --  12 modFlag
     16 propType
     17 numUnits
     18 occType
-    19 propertyState
+    *DELETE -- 19 propertyState*
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent*
     22 prodType
     23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
+    *DELETE -- 24 mortInsType*
     25 reloMortIndicator
 
 DELETE  --  14 zeroBalEffDate
@@ -74,107 +74,107 @@ DELETE  --  17 dispositionDate
 18 foreclosureCosts
     01 loanID
     02 origChannel
-    03 sellerName
+    *DELETE -- 03 sellerName
     04 origIntRate
     05 orgUPB
-    06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
-    09 orgLTV
-    10 orgCombinedLTV
-    11 numBorrowers
-    12 orgDebttoIncomeRatio
-    13 borrowerCreditScoreAtOrigination
-    14 firstTimeHomeBuyer
-    15 loanPurpose
+    *DELETE -- 06 orgLoanTerm
+    *DELETE -- 07 orginationDate
+    *DELETE -- 08 firstPaymentDate
+    *DELETE -- 09 orgLTV
+    *DELETE -- 10 orgCombinedLTV
+    *DELETE -- 11 numBorrowers
+    *DELETE -- 12 orgDebttoIncomeRatio
+    *DELETE -- 13 borrowerCreditScoreAtOrigination
+    *DELETE -- 14 firstTimeHomeBuyer
+    *DELETE -- 15 loanPurpose
     16 propType
     17 numUnits
-    18 occType
+    *DELETE -- 18 occType
     19 propertyState
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent
     22 prodType
-    23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
-    25 reloMortIndicator
+    *DELETE -- 23 coBorrowerCreditScoreAtOrigination
+    *DELETE -- 24 mortInsType
+    *DELETE -- 25 reloMortIndicator
 19 propertyPreservationAndRepairCosts
     01 loanID
     02 origChannel
-    03 sellerName
+    *DELETE -- 03 sellerName
     04 origIntRate
     05 orgUPB
-    06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
-    09 orgLTV
-    10 orgCombinedLTV
-    11 numBorrowers
-    12 orgDebttoIncomeRatio
-    13 borrowerCreditScoreAtOrigination
-    14 firstTimeHomeBuyer
-    15 loanPurpose
+    *DELETE -- 06 orgLoanTerm
+    *DELETE -- 07 orginationDate
+    *DELETE -- 08 firstPaymentDate
+    *DELETE -- 09 orgLTV
+    *DELETE -- 10 orgCombinedLTV
+    *DELETE -- 11 numBorrowers
+    *DELETE -- 12 orgDebttoIncomeRatio
+    *DELETE -- 13 borrowerCreditScoreAtOrigination
+    *DELETE -- 14 firstTimeHomeBuyer
+    *DELETE -- 15 loanPurpose
     16 propType
     17 numUnits
-    18 occType
+    *DELETE -- 18 occType
     19 propertyState
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent
     22 prodType
-    23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
-    25 reloMortIndicator
+    *DELETE -- 23 coBorrowerCreditScoreAtOrigination
+    *DELETE -- 24 mortInsType
+    *DELETE -- 25 reloMortIndicator
 20 assetRecoveryCosts
     01 loanID
     02 origChannel
-    03 sellerName
+    *DELETE -- 03 sellerName
     04 origIntRate
     05 orgUPB
-    06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
-    09 orgLTV
-    10 orgCombinedLTV
-    11 numBorrowers
-    12 orgDebttoIncomeRatio
-    13 borrowerCreditScoreAtOrigination
-    14 firstTimeHomeBuyer
-    15 loanPurpose
+    *DELETE -- 06 orgLoanTerm
+    *DELETE -- 07 orginationDate
+    *DELETE -- 08 firstPaymentDate
+    *DELETE -- 09 orgLTV
+    *DELETE -- 10 orgCombinedLTV
+    *DELETE -- 11 numBorrowers
+    *DELETE -- 12 orgDebttoIncomeRatio
+    *DELETE -- 13 borrowerCreditScoreAtOrigination
+    *DELETE -- 14 firstTimeHomeBuyer
+    *DELETE -- 15 loanPurpose
     16 propType
     17 numUnits
-    18 occType
+    *DELETE -- 18 occType
     19 propertyState
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent
     22 prodType
-    23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
-    25 reloMortIndicator
+    *DELETE -- 23 coBorrowerCreditScoreAtOrigination
+    *DELETE -- 24 mortInsType
+    *DELETE -- 25 reloMortIndicator
 21 miscHoldingExpnAndCredits
     01 loanID
     02 origChannel
-    03 sellerName
+    *DELETE -- 03 sellerName
     04 origIntRate
     05 orgUPB
-    06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
-    09 orgLTV
-    10 orgCombinedLTV
-    11 numBorrowers
-    12 orgDebttoIncomeRatio
-    13 borrowerCreditScoreAtOrigination
-    14 firstTimeHomeBuyer
-    15 loanPurpose
+    *DELETE -- 06 orgLoanTerm
+    *DELETE -- 07 orginationDate
+    *DELETE -- 08 firstPaymentDate
+    *DELETE -- 09 orgLTV
+    *DELETE -- 10 orgCombinedLTV
+    *DELETE -- 11 numBorrowers
+    *DELETE -- 12 orgDebttoIncomeRatio
+    *DELETE -- 13 borrowerCreditScoreAtOrigination
+    *DELETE -- 14 firstTimeHomeBuyer
+    *DELETE -- 15 loanPurpose
     16 propType
     17 numUnits
-    18 occType
+    *DELETE -- 18 occType
     19 propertyState
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent
     22 prodType
-    23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
-    25 reloMortIndicator
+    *DELETE -- 23 coBorrowerCreditScoreAtOrigination
+    *DELETE -- 24 mortInsType
+    *DELETE -- 25 reloMortIndicator
 
 DELETE  --  22 assocTaxesForHoldingProperty
 DELETE  --  23 netSaleProceeds
@@ -190,8 +190,8 @@ DELETE  --  27 nonInterestBearingUPB
     04 origIntRate
     05 orgUPB
     06 orgLoanTerm
-    07 orginationDate
-    08 firstPaymentDate
+    *DELETE -- 07 orginationDate*
+    *DELETE -- 08 firstPaymentDate*
     09 orgLTV
     10 orgCombinedLTV
     11 numBorrowers
@@ -202,12 +202,12 @@ DELETE  --  27 nonInterestBearingUPB
     16 propType
     17 numUnits
     18 occType
-    19 propertyState
+    *DELETE -- 19 propertyState*
     20 zipCodeShort
-    21 priMortgageInsurancePercent
+    *DELETE -- 21 priMortgageInsurancePercent*
     22 prodType
     23 coBorrowerCreditScoreAtOrigination
-    24 mortInsType
+    *DELETE -- 24 mortInsType*
     25 reloMortIndicator
 
 DELETE  --  29 repurchaseMakeWholeProceedsFlag
