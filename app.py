@@ -13,7 +13,8 @@ def index():
 def getPrediction():
     if request.method == 'POST':
         f = request.form
-        return json.dumps(f)
+        mock = [70,72]
+        return render_template("result.html",result = mock)
     else:
         return "POST Failed"
 
