@@ -2,7 +2,7 @@ from flask import Flask
 from flask import request
 import os
 import json
-import render_template
+from flask import render_template
 
 app = Flask(__name__)
 
