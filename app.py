@@ -2,12 +2,13 @@ from flask import Flask
 from flask import request
 import os
 import json
+import render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Welcome to Prediction'
+    return render_template('index.html')
 
 @app.route('/getPrediction', methods=['POST'])
 def getPrediction():
