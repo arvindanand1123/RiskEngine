@@ -12,7 +12,9 @@ from sklearn.metrics import confusion_matrix
 import keras
 import keras.backend as K
 from keras.models import Sequential
-from keras.layers import Dense
+from keras.layers import Dense, Dropout
+from keras.layers import Embedding
+from keras.layers import LSTM
 
 X = pd.read_csv("final_zero_b.csv")
 X.fillna('')
@@ -61,16 +63,18 @@ print("Test data shape:", y_train.shape)
 classifier = Sequential()
 
 # Adding the input layer and the first hidden layer
-classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 22))
+classifier.add(Dense(output_dim = 10, init = 'uniform', activation = 'relu',input_dim = 22))
+
 # Adding the second hidden layer
 classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu'))
+
 # Adding the output layer
 classifier.add(Dense(output_dim = 1, init = 'uniform', activation = 'sigmoid'))
 
 # Compiling Neural Network
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 
-# Fitting our model 
+# Fitting our model
 classifier.fit(X_train, y_train, batch_size = 10, nb_epoch = 50)
 classifier.save_weights("model.h5")
 print("Saved model to disk")
